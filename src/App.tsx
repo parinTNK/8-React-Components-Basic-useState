@@ -25,9 +25,8 @@ function App() {
           <Stopwatch />
           <TemperatureConverter />
           <ColorPicker />
-
         </div>
-
+        {/* ไม่ responsive นะครับ ^ ^ */}
       </div>
 
     </>
