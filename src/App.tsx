@@ -6,6 +6,7 @@ import RandomQuoteGenerator from './components/RandomQuoteGenerator';
 import ColorPicker from './components/ColorPicker';
 import Stopwatch from './components/Stopwatch';
 import TemperatureConverter from './components/TemperatureConverter';
+import BMICalculator from './components/BMICalculator';
 
 
 
@@ -26,7 +27,9 @@ function App() {
           <TemperatureConverter />
           <ColorPicker />
         </div>
-        {/* ไม่ responsive นะครับ ^ ^ */}
+        <div className='flex flex-row m-10 gap-4'>
+          <BMICalculator/>
+        </div>
       </div>
 
     </>
