@@ -7,6 +7,7 @@ const Counter = () => {
   const increment = () => setCount(count + 1); // Increase the counter
   const decrement = () => setCount(count - 1 >= 0 ? count - 1 : 0); // Decrease the counter
   const reset = () => setCount(0); // Reset the counter to 0
+  
   const setCounter = () => {
     const value = parseInt(inputValue, 10);
     if (!isNaN(value)) setCount(value); // Set the counter to the input value if valid

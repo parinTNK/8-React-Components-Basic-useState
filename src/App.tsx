@@ -7,7 +7,7 @@ import ColorPicker from './components/ColorPicker';
 import Stopwatch from './components/Stopwatch';
 import TemperatureConverter from './components/TemperatureConverter';
 import BMICalculator from './components/BMICalculator';
-
+import StyleButton from './components/StyleButton';
 
 
 function App() {
@@ -29,6 +29,7 @@ function App() {
         </div>
         <div className='flex flex-row m-10 gap-4'>
           <BMICalculator/>
+          <StyleButton />
         </div>
       </div>
 
